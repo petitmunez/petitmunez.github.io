@@ -214,7 +214,7 @@ p:last-child {
   color: #ffffff;
   background-color: #04598C;
   -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
-          box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+          box-shadow: 0 13px 27px 0 rgba(52, 189, 232, 0.45);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -249,7 +249,7 @@ p:last-child {
   color: #ffffff;
   background-color: #04598C;
   -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
-          box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+          box-shadow: 0 13px 27px 0 rgba(52, 189, 232, 0.45);
   opacity: 1;
 }
 
