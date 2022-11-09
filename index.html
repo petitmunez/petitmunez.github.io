@@ -280,17 +280,18 @@
               <div class="contact__content">
                 <input
                   type="email"
-                  required data-error=""
+                  name="email"
                   placeholder=""
                   class="contact__input"
-                />
-                <input type="hidden" name="_next" value="https://petitmunez.github.io/thankyou.html">
+                  required/>
                 <label for="" class="contact__label">Email</label>
               </div>
 
+                <input type="hidden" name="_next" value="https://petitmunez.github.io/thankyou.html">
+
               <div class="contact__content">
                 <input type="text" name="_subject" value="New Email !" 
-                class="contact__input" required data-error="" />
+                class="contact__input" required/>
                 <label for="" class="contact__label">Sujet</label>
               </div>
 
@@ -299,9 +300,7 @@
                   name="message"
                   placeholder=""
                   class="contact__input"
-                  required data-error=""
-
-                ></textarea>
+                  required></textarea>
                 <label for="" class="contact__label">Message</label>
               </div>
             </div>
